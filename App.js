@@ -14,7 +14,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name="Map" component={Map} />
+        <Tab.Screen name="Spotted Poops 👀" component={Map} />
         <Tab.Screen name="Post" component={TakePicture} />
         
       </Tab.Navigator>
